@@ -18,6 +18,9 @@
     margin: 0;
     padding: 0;
 }
+.storitev {
+    margin-bottom: 25px;
+}
 #ponudba,
 #faq {
     background-color: #e7e9ed;
@@ -51,7 +54,7 @@
     font-weight: 700;
     text-align: center;
 }
-#center {
+.center {
     margin: 0 auto;
 }
 input,
@@ -101,4 +104,10 @@ select   {
     margin: 0;
     padding: 0;
     line-height: 1.5em;
+}
+@media only screen and (max-width: 992px) {
+    #delavnik.col-lg-6 {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
 }

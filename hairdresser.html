@@ -60,7 +60,7 @@
                                         <a class="nav-link disabled" href="#">Disabled</a>
                                     </li>
                                 </ul>
-                               
+
                             </div>
                         </nav>
                     </div>
@@ -118,7 +118,7 @@
                     <div class="col-12" id="naslov">
                         Kaj nudimo?
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 storitev">
                         <div class="row" id="storitev-1">
                             <div class="storitev-naslov">
                                 Striženje
@@ -130,7 +130,7 @@
                                 feugiat ligula, sed porttitor diam.</p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 storitev">
                         <div class="row" id="storitev-1">
                             <div class="storitev-naslov">
                                 Barvanje
@@ -143,7 +143,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 storitev">
                         <div class="row" id="storitev-1">
                             <div class="storitev-naslov">
                                 Nega
@@ -164,28 +164,33 @@
                     <div class="col-12" id="naslov">
                         Naroči se!
                     </div>
-                    <div class="col-6" id="center">
+                    <div class="col-lg-6 center" id="forma">
                         <div class="container">
-                        <div class="row">
-                            Ime in priimek <br/>
-                            <input type="text" id="ime" name="imeInPriimek">
-                            Telefonska številka <br/>
-                            <input type="number" id="telefon" name="telefon">
-                            Dan <br/>
-                            <select id="dan" name="dan">
-                                <option value="ponedeljek">Ponedeljek</option>
-                                <option value="torek">Torek</option>
-                                <option value="sreda">Sreda</option>
-                                <option value="cetrtek">Četrtek</option>
-                                <option value="petek">Petek</option>
-                                <option value="sobota">Sobota</option>
-                            </select>
-                            Vaše sporočilo <br/>
-                            <input type="text-area" id="sporocilo" name="sporocilo">
-                            <input type="button" id="poslji" value="Pošlji" onclick="msg()">
+                            <div class="row">
+                                Ime in priimek
+                                <br/>
+                                <input type="text" id="ime" name="imeInPriimek">
+                                Telefonska številka
+                                <br/>
+                                <input type="number" id="telefon" name="telefon">
+                                Dan
+                                <br/>
+                                <select id="dan" name="dan">
+                                    <option value="ponedeljek">Ponedeljek</option>
+                                    <option value="torek">Torek</option>
+                                    <option value="sreda">Sreda</option>
+                                    <option value="cetrtek">Četrtek</option>
+                                    <option value="petek">Petek</option>
+                                    <option value="sobota">Sobota</option>
+                                </select>
+                                Vaše sporočilo
+                                <br/>
+                                <input type="text-area" id="sporocilo" name="sporocilo">
+                                <input type="button" id="poslji" value="Pošlji" onclick="msg()">
+                            </div>
                         </div>
-                    </div></div>
-                    <div calss="col-6" id="center">
+                    </div>
+                    <div class="col-lg-6 center" id="delavnik">
                         <div class="row">
                             <table class="table table-dark">
                                 <thead>
@@ -202,19 +207,24 @@
                                     <tr>
                                         <td>Torek</td>
                                         <td>8:00 - 20:00</td>
-                                    </tr><tr>
+                                    </tr>
+                                    <tr>
                                         <td>Sreda</td>
                                         <td>8:00 - 20:00</td>
-                                    </tr><tr>
+                                    </tr>
+                                    <tr>
                                         <td>Četrtek</td>
                                         <td>8:00 - 20:00</td>
-                                    </tr><tr>
+                                    </tr>
+                                    <tr>
                                         <td>Petek</td>
                                         <td>8:00 - 22:00</td>
-                                    </tr><tr>
+                                    </tr>
+                                    <tr>
                                         <td>Sobota</td>
                                         <td>11:00 - 20:00</td>
-                                    </tr><tr>
+                                    </tr>
+                                    <tr>
                                         <td>Nedelja</td>
                                         <td>Zaprto</td>
                                     </tr>
@@ -233,73 +243,104 @@
                         <div class="col-12" id="naslov">
                             Vprašanja!
                         </div>
+                        <div class="col-12">
 
-                    <div class="accordion" id="accordionExample">
-                        <div class="card z-depth-0 bordered">
-                            <div class="card-header" id="headingOne">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                                        aria-expanded="true" aria-controls="collapseOne">
-                                        Kakšen je salon in ekipa?
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-                                    nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                                    labore sustainable.
+                            <div class="accordion" id="accordionExample">
+                                <div class="card z-depth-0 bordered">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button
+                                                class="btn btn-link"
+                                                type="button"
+                                                data-toggle="collapse"
+                                                data-target="#collapseOne"
+                                                aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Kakšen je salon in ekipa?
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div
+                                        id="collapseOne"
+                                        class="collapse show"
+                                        aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                            richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                            brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                            sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                            cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                            Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                            you probably haven't heard of them accusamus labore sustainable.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card z-depth-0 bordered">
+                                    <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                            <button
+                                                class="btn btn-link collapsed"
+                                                type="button"
+                                                data-toggle="collapse"
+                                                data-target="#collapseTwo"
+                                                aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                Ali sprejemate hišne ljubljenčke?
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div
+                                        id="collapseTwo"
+                                        class="collapse"
+                                        aria-labelledby="headingTwo"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                            richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                            brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                            sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                            cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                            Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                            you probably haven't heard of them accusamus labore sustainable.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card z-depth-0 bordered">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button
+                                                class="btn btn-link collapsed"
+                                                type="button"
+                                                data-toggle="collapse"
+                                                data-target="#collapseThree"
+                                                aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                Imate kakšne nagrade iz tekmovanj?
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div
+                                        id="collapseThree"
+                                        class="collapse"
+                                        aria-labelledby="headingThree"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                            richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                            brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                            sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                            cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                            Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                            you probably haven't heard of them accusamus labore sustainable.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card z-depth-0 bordered">
-                            <div class="card-header" id="headingTwo">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
-                                        aria-expanded="false" aria-controls="collapseTwo">
-                                        Ali sprejemate hišne ljubljenčke?
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-                                    nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                                    labore sustainable.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card z-depth-0 bordered">
-                            <div class="card-header" id="headingThree">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
-                                        aria-expanded="false" aria-controls="collapseThree">
-                                        Imate kakšne nagrade iz tekmovanj?
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-                                    nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-                                    labore sustainable.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        
 
                     </div>
                 </div>
@@ -308,29 +349,45 @@
         <div class="container-fluid" id="noga">
             <div class="container">
                 <div class="row">
-                <div class="col-4">
-                    <div class="row" id="kontakt">
-                        <p><b>Kontakt</b></p>
-                        <p>Frizerstvo Mirko s.p.</p>
-                        <p>Neka ulica 12</p>
-                        <p>1000 Ljubljana</p>
-                        <p>Tel: +386 1 234 56 78</p>
-                    </div>    
-                </div>
-                <div class="col-4">
-                    <div class="row">
-                        <img src="https://www.b2.eu/uploads/srednjasola/frizer/b2-srednja-sola-frizer-zakaj-se-vpisati.png?1499546406335" width="96px" height="115px">
+                    <div class="col-4">
+                        <div class="row" id="kontakt">
+                            <p>
+                                <b>Kontakt</b>
+                            </p>
+                            <p>Frizerstvo Mirko s.p.</p>
+                            <p>Neka ulica 12</p>
+                            <p>1000 Ljubljana</p>
+                            <p>Tel: +386 1 234 56 78</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <img
+                                src="https://www.b2.eu/uploads/srednjasola/frizer/b2-srednja-sola-frizer-zakaj-se-vpisati.png?1499546406335"
+                                width="96px"
+                                height="115px">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row" id="sitemap">
+                            <p>
+                                <b>Kje sem?</b>
+                            </p>
+                            <p>
+                                <a href="#">domov</a>
+                            </p>
+                            <p>
+                                <a href="#">cenik</a>
+                            </p>
+                            <p>
+                                <a href="#">mnenja strank</a>
+                            </p>
+                            <p>
+                                <a href="#">galerija</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="row" id="sitemap">
-                        <p><b>Kje sem?</b></p>
-                        <p><a href="#">domov</a></p>
-                        <p><a href="#">cenik</a></p>
-                        <p><a href="#">mnenja strank</a></p>
-                        <p><a href="#">galerija</a></p>
-                    </div>
-                </div></div>
             </div>
         </div>
     </body>
